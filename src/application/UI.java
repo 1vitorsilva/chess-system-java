@@ -46,7 +46,7 @@ public class UI {
 			int row = Integer.parseInt(s.substring(1));
 			return new ChessPosition(column, row);
 		} catch (RuntimeException e) {
-			throw new InputMismatchException("Error rading ChessPostion.Valid values are from a1 to h8.");
+			throw new InputMismatchException("Error reading ChessPostion. Valid values are from a1 to h8.");
 		}
 	}
 
